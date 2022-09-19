@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: chocolate;
+    
+}
+
+#menu img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+}
+
+#menu ul{
+    height: 100px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    color: orangered;
+    background-color: black;
+}
+
+#menu li{
+    top: 0;
+    left: 0;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.3em;
+    margin: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    color: black;
+}
+
+#menu a{
+    list-style: none;
+    color: orangered;
+}
+
+.intro{
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#sobre{
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+
+.desc_adote{
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+#adote{
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+
+
+#contato{
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    display: block;
+}
+
+#adote img{
+    width: 350px;
+    height: 350px;
+    border: 10px solid white;
+    border-radius: 25px;
+    flex-grow: 1;
+}
+
+.rex li, .brahma li, .farofa li, .neymar li, .marley li, .timberlake li, .supervia li, .coragem li, .anitta li, .galvao li{
+    list-style: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.3em;
+    height: 50px;
+    background: black;
+    color: orangered;
+}
+
+@media only screen and (max-device-width: 375px) {
+     #adote{height: 4000px;}
+    }
